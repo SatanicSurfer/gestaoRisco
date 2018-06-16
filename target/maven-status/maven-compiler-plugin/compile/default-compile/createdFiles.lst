@@ -1,0 +1,10 @@
+br/com/dbccompany/ui/controller/ClienteController.class
+br/com/dbccompany/app/config/ApplicationConfig.class
+br/com/dbccompany/app/config/DataBaseConfig.class
+br/com/dbccompany/services/ClienteService.class
+br/com/dbccompany/services/ClienteServiceImpl.class
+br/com/dbccompany/entity/Cliente.class
+br/com/dbccompany/web/config/ClienteWebMVCConfig.class
+br/com/dbccompany/dao/ClienteDAO.class
+br/com/dbccompany/dao/ClienteDAOImpl.class
+br/com/dbccompany/web/config/ClienteWebAppInitializer.class

@@ -33,4 +33,6 @@
     </div>
   </div>
   </div>
-     
+      <div class="">
+        <a  class="btn btn-primary" href="<%=contextPath%>/cliente/clienteForm.action" style="margin-left:50%;">Adicionar Cliente</a>
+        </div>

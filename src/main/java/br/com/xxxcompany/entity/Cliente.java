@@ -14,6 +14,8 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
+import org.springframework.format.annotation.NumberFormat;
+
 import br.com.xxxcompany.domain.Risco;
 
 @Entity
@@ -39,6 +41,7 @@ public class Cliente {
 	private Risco risco;
 	
 	@Column(name="renda_mensal")
+	@NumberFormat(pattern="$###.###,00")
 	private Double rendaMensal;
 	
 	public long getClienteId() {
